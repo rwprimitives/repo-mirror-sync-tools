@@ -2,7 +2,7 @@
 #
 # aosp_mirror_sync
 #
-# This script uses apt-mirror to sync a local AOSP mirror
+# This script uses repo tool from AOSP to sync a local AOSP mirror
 # with a remote mirror.
 #
 
