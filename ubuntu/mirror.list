@@ -1,0 +1,98 @@
+############# config ##################
+#
+set base_path    /var/mirrors/repos/ubuntu
+set mirror_path  $base_path/mirror
+set skel_path    $base_path/skel
+set var_path     $base_path/var
+set nthreads    10 
+set _tilde 0
+#
+############# end config ##############
+
+
+## JAMMY 22.04 X86_64
+deb-amd64 http://archive.ubuntu.com/ubuntu/ jammy main restricted universe multiverse
+deb-amd64 http://archive.ubuntu.com/ubuntu/ jammy-updates main restricted universe multiverse
+deb-amd64 http://archive.ubuntu.com/ubuntu/ jammy-backports main restricted universe multiverse
+deb-amd64 http://archive.ubuntu.com/ubuntu jammy-security main restricted universe multiverse
+
+## JAMMY 22.04 X86
+deb-i386 http://archive.ubuntu.com/ubuntu/ jammy main restricted universe multiverse
+deb-i386 http://archive.ubuntu.com/ubuntu/ jammy-updates main restricted universe multiverse
+deb-i386 http://archive.ubuntu.com/ubuntu/ jammy-backports main restricted universe multiverse
+deb-i386 http://archive.ubuntu.com/ubuntu jammy-security main restricted universe multiverse
+
+## JAMMY 22.04 Source
+deb-src http://archive.ubuntu.com/ubuntu/ jammy main restricted universe multiverse
+deb-src http://archive.ubuntu.com/ubuntu/ jammy-updates main restricted universe multiverse
+deb-src http://archive.ubuntu.com/ubuntu/ jammy-backports main restricted universe multiverse
+deb-src http://archive.ubuntu.com/ubuntu jammy-security main restricted universe multiverse
+
+
+## FOCAL 20.04 X86_64
+#deb-amd64 http://archive.ubuntu.com/ubuntu/ focal main restricted universe multiverse
+#deb-amd64 http://archive.ubuntu.com/ubuntu/ focal-updates main restricted universe multiverse
+#deb-amd64 http://archive.ubuntu.com/ubuntu/ focal-backports main restricted universe multiverse
+#deb-amd64 http://archive.ubuntu.com/ubuntu focal-security main restricted universe multiverse
+#deb-amd64 http://archive.ubuntu.com/ubuntu focal-proposed main restricted universe multiverse
+
+## FOCAL 20.04 X86
+#deb-i386 http://archive.ubuntu.com/ubuntu/ focal main restricted universe multiverse
+#deb-i386 http://archive.ubuntu.com/ubuntu/ focal-updates main restricted universe multiverse
+#deb-i386 http://archive.ubuntu.com/ubuntu/ focal-backports main restricted universe multiverse
+#deb-i386 http://archive.ubuntu.com/ubuntu focal-security main restricted universe multiverse
+#deb-i386 http://archive.ubuntu.com/ubuntu focal-proposed main restricted universe multiverse
+
+## FOCAL 20.04 Source
+#deb-src http://archive.ubuntu.com/ubuntu/ focal main restricted universe multiverse
+#deb-src http://archive.ubuntu.com/ubuntu/ focal-updates main restricted universe multiverse
+#deb-src http://archive.ubuntu.com/ubuntu/ focal-backports main restricted universe multiverse
+#deb-src http://archive.ubuntu.com/ubuntu focal-security main restricted universe multiverse
+#deb-src http://archive.ubuntu.com/ubuntu focal-proposed main restricted universe multiverse
+
+
+## BIONIC 18.04 X86_64
+#deb-amd64 http://archive.ubuntu.com/ubuntu bionic main restricted universe multiverse
+#deb-amd64 http://archive.ubuntu.com/ubuntu bionic-updates main restricted universe multiverse
+#deb-amd64 http://archive.ubuntu.com/ubuntu bionic-backports main restricted universe multiverse
+#deb-amd64 http://archive.ubuntu.com/ubuntu bionic-proposed main restricted universe multiverse
+#deb-amd64 http://archive.ubuntu.com/ubuntu bionic-security main restricted universe multiverse
+
+## BIONIC 18.04 X86
+#deb-i386 http://archive.ubuntu.com/ubuntu bionic main restricted universe multiverse
+#deb-i386 http://archive.ubuntu.com/ubuntu bionic-updates main restricted universe multiverse
+#deb-i386 http://archive.ubuntu.com/ubuntu bionic-backports main restricted universe multiverse
+#deb-i386 http://archive.ubuntu.com/ubuntu bionic-proposed main restricted universe multiverse
+#deb-i386 http://archive.ubuntu.com/ubuntu bionic-security main restricted universe multiverse
+
+## BIONIC 18.04 Source
+#deb-src http://archive.ubuntu.com/ubuntu bionic main restricted universe multiverse
+#deb-src http://archive.ubuntu.com/ubuntu bionic-updates main restricted universe multiverse
+#deb-src http://archive.ubuntu.com/ubuntu bionic-backports main restricted universe multiverse
+#deb-src http://archive.ubuntu.com/ubuntu bionic-proposed main restricted universe multiverse
+#deb-src http://archive.ubuntu.com/ubuntu bionic-security main restricted universe multiverse
+
+
+## XENIAL 16.04 X86_64
+#deb-amd64 http://archive.ubuntu.com/ubuntu xenial main restricted universe multiverse
+#deb-amd64 http://archive.ubuntu.com/ubuntu xenial-updates main restricted universe multiverse
+#deb-amd64 http://archive.ubuntu.com/ubuntu xenial-backports main restricted universe multiverse
+#deb-amd64 http://archive.ubuntu.com/ubuntu xenial-proposed main restricted universe multiverse
+#deb-amd64 http://archive.ubuntu.com/ubuntu xenial-security main restricted universe multiverse
+
+## XENIAL 16.04 X86
+#deb-i386 http://archive.ubuntu.com/ubuntu xenial main restricted universe multiverse
+#deb-i386 http://archive.ubuntu.com/ubuntu xenial-updates main restricted universe multiverse
+#deb-i386 http://archive.ubuntu.com/ubuntu xenial-backports main restricted universe multiverse
+#deb-i386 http://archive.ubuntu.com/ubuntu xenial-proposed main restricted universe multiverse
+#deb-i386 http://archive.ubuntu.com/ubuntu xenial-security main restricted universe multiverse
+
+## XENIAL 16.04 Source
+#deb-src http://archive.ubuntu.com/ubuntu xenial main restricted universe multiverse
+#deb-src http://archive.ubuntu.com/ubuntu xenial-updates main restricted universe multiverse
+#deb-src http://archive.ubuntu.com/ubuntu xenial-backports main restricted universe multiverse
+#deb-src http://archive.ubuntu.com/ubuntu xenial-proposed main restricted universe multiverse
+#deb-src http://archive.ubuntu.com/ubuntu xenial-security main restricted universe multiverse
+
+
+clean http://archive.ubuntu.com/ubuntu

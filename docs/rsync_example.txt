@@ -1,0 +1,13 @@
+# Example rsync command from local to remote server
+#
+# rsync [OPTIONS] SRC DEST
+#
+# OPTIONS:
+#  -a: copy all original files. This implies all of the options, -Dgloprt
+#  -v: verbose
+#  -P: show progress during transfer
+#  --delete: delete extraneous files from dest dirs
+#  --exclude: do not copy a file or directory from SRC
+#
+
+rsync -avP --delete /local/path/to/repos/ user@remoteserver:/remote/path/to/repos
